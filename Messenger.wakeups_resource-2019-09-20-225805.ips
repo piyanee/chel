@@ -1,0 +1,165 @@
+{"app_name":"Messenger","timestamp":"2019-09-20 22:58:05.76 +0700","app_version":"232.0","slice_uuid":"7EE6898B-9FA9-3E91-B1D9-987B07725C63","adam_id":454638411,"build_version":"171452757","bundleID":"com.facebook.Messenger","share_with_app_devs":true,"is_first_party":false,"bug_type":"142","os_version":"iPhone OS 12.4.1 (16G102)","incident_id":"16806128-E874-4101-8BAD-84A0E9F8FC66","name":"Messenger"}
+Date/Time:       2019-09-20 22:57:52 +0700
+End time:        2019-09-20 22:58:04 +0700
+OS Version:      iPhone OS 12.4.1 (Build 16G102)
+Architecture:    arm64
+Report Version:  28
+Incident Identifier: 16806128-E874-4101-8BAD-84A0E9F8FC66
+
+Data Source:     Microstackshots
+Shared Cache:    0x862e0000 A8AC92B4-97D1-3ACA-8372-894D348F8F3B
+
+Command:         Messenger
+Path:            /private/var/containers/Bundle/Application/A6E6A705-6189-48D7-B159-A47CEE0D28B8/Messenger.app/Messenger
+Identifier:      com.facebook.Messenger
+Version:         232.0 (171452757)
+Beta Identifier: 4511EF97-FF15-47DF-B0B4-A1B01E527669
+PID:             5549
+
+Event:           wakeups
+Action taken:    none
+Wakeups:         45001 wakeups over the last 81 seconds (552 wakeups per second average), exceeding limit of 150 wakeups per second over 300 seconds
+Wakeups limit:   45000
+Limit duration:  300s
+Wakeups caused:  45001
+Duration:        12.09s
+Steps:           5
+
+Hardware model:  iPhone9,3
+Active cpus:     2
+Boot args:        
+
+
+Heaviest stack for the target process:
+  5  ??? (libsystem_pthread.dylib + 45600) [0x206dc5220]
+  5  ??? (libsystem_pthread.dylib + 45760) [0x206dc52c0]
+  2  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 195420) [0x1076a3b5c]
+  2  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 3032328) [0x107958508]
+  2  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 195968) [0x1076a3d80]
+  2  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 197092) [0x1076a41e4]
+  1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 199356) [0x1076a4abc]
+  1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 6573236) [0x107cb8cb4]
+  1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 6524424) [0x107cace08]
+  1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 6528476) [0x107cadddc]
+  1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 1790276) [0x107829144]
+  1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 1832140) [0x1078334cc]
+  1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 1768704) [0x107823d00]
+  1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 1739224) [0x10781c9d8]
+  1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 1694088) [0x107811988]
+  1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 1867660) [0x10783bf8c]
+  1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 1616548) [0x1077feaa4]
+  1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 1618080) [0x1077ff0a0]
+  1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 6536576) [0x107cafd80]
+  1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 5913216) [0x107c17a80]
+  1  ??? (libc++abi.dylib + 3648) [0x206367e40]
+  1  ??? (libsystem_malloc.dylib + 66780) [0x206d894dc]
+  1  ??? (libsystem_malloc.dylib + 64204) [0x206d88acc]
+  1  ??? (libsystem_malloc.dylib + 27816) [0x206d7fca8]
+
+
+Powerstats for:  Messenger [5549]
+Bundle ID:       com.facebook.Messenger
+Adam ID:         454638411
+Is first party:  No
+App version:     232.0
+Build version:   171452757
+Is Beta:         No
+Share with Devs: Yes
+UUID:            7EE6898B-9FA9-3E91-B1D9-987B07725C63
+Path:            /private/var/containers/Bundle/Application/A6E6A705-6189-48D7-B159-A47CEE0D28B8/Messenger.app/Messenger
+Architecture:    arm64
+Parent:          UNKNOWN [1]
+UID:             501
+Footprint:       76.50 MB
+Start time:      2019-09-20 22:57:52 +0700
+End time:        2019-09-20 22:58:04 +0700
+Num samples:     5 (100%)
+Primary state:   2 samples Frontmost App, Non-Suppressed, Kernel mode, Effective Thread QoS Unspecified, Requested Thread QoS Unspecified, Override Thread QoS Unspecified
+User Activity:   0 samples Idle, 0 samples Active, 5 samples Unknown
+Power Source:    0 samples on Battery, 0 samples on AC, 5 samples Unknown
+  5  ??? (libsystem_pthread.dylib + 45600) [0x206dc5220]
+    5  ??? (libsystem_pthread.dylib + 45760) [0x206dc52c0]
+      2  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 195420) [0x1076a3b5c]
+        2  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 3032328) [0x107958508]
+          2  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 195968) [0x1076a3d80]
+            2  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 197092) [0x1076a41e4]
+              1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 199356) [0x1076a4abc]
+                1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 6573236) [0x107cb8cb4]
+                  1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 6524424) [0x107cace08]
+                    1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 6528476) [0x107cadddc]
+                      1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 1790276) [0x107829144]
+                        1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 1832140) [0x1078334cc]
+                          1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 1768704) [0x107823d00]
+                            1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 1739224) [0x10781c9d8]
+                              1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 1694088) [0x107811988]
+                                1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 1867660) [0x10783bf8c]
+                                  1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 1616548) [0x1077feaa4]
+                                    1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 1618080) [0x1077ff0a0]
+                                      1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 6536576) [0x107cafd80]
+                                        1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 5913216) [0x107c17a80]
+                                          1  ??? (libc++abi.dylib + 3648) [0x206367e40]
+                                            1  ??? (libsystem_malloc.dylib + 66780) [0x206d894dc]
+                                              1  ??? (libsystem_malloc.dylib + 64204) [0x206d88acc]
+                                                1  ??? (libsystem_malloc.dylib + 27816) [0x206d7fca8]
+                                                  1  <User mode, Effective Thread QoS Default, Requested Thread QoS Default>
+              1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 199332) [0x1076a4aa4]
+                1  ??? (libsystem_kernel.dylib + 151764) [0x206d450d4]
+                  1  <Effective Thread QoS Default, Requested Thread QoS Default>
+      1  ??? (AudioToolbox + 4982008) [0x20b4c64f8]
+        1  ??? (AudioToolbox + 972784) [0x20b0f37f0]
+          1  ??? (AudioToolbox + 952468) [0x20b0ee894]
+            1  ??? (AudioToolbox + 4953024) [0x20b4bf3c0]
+              1  ??? (AudioToolbox + 4952488) [0x20b4bf1a8]
+                1  ??? (AudioToolbox + 2591672) [0x20b27ebb8]
+                  1  ??? (AudioToolbox + 956280) [0x20b0ef778]
+                    1  ??? (AudioToolbox + 950364) [0x20b0ee05c]
+                      1  ??? (AudioToolbox + 5039296) [0x20b4d44c0]
+                        1  ??? (AudioToolbox + 5041092) [0x20b4d4bc4]
+                          1  ??? (AudioToolbox + 951460) [0x20b0ee4a4]
+                            1  ??? (AudioToolbox + 2113580) [0x20b20a02c]
+                              1  ??? (AudioToolbox + 3476108) [0x20b356a8c]
+                                1  ??? (AudioToolbox + 96404) [0x20b01d894]
+                                  1  ??? (AudioToolbox + 95140) [0x20b01d3a4]
+                                    1  ??? (AudioToolbox + 96404) [0x20b01d894]
+                                      1  ??? (AudioToolbox + 96792) [0x20b01da18]
+                                        1  ??? (AudioToolbox + 97504) [0x20b01dce0]
+                                          1  ??? (AudioToolbox + 97952) [0x20b01dea0]
+                                            1  ??? (AudioToolbox + 1499720) [0x20b174248]
+                                              1  ??? (AudioToolbox + 2115660) [0x20b20a84c]
+                                                1  ??? (AudioToolbox + 5022068) [0x20b4d0174]
+                                                  1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 2743192) [0x107911b98]
+                                                    1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 2743684) [0x107911d84]
+                                                      1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 5896524) [0x107c1394c]
+                                                        1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 2756564) [0x107914fd4]
+                                                          1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 2079084) [0x10786f96c]
+                                                            1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 2482060) [0x1078d1f8c]
+                                                              1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 2085864) [0x1078713e8]
+                                                                1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 2375020) [0x1078b7d6c]
+                                                                  1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 2335332) [0x1078ae264]
+                                                                    1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 2516296) [0x1078da548]
+                                                                      1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 2527212) [0x1078dcfec]
+                                                                        1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 2344480) [0x1078b0620]
+                                                                          1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 2384436) [0x1078ba234]
+                                                                            1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 2362348) [0x1078b4bec]
+                                                                              1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 2332976) [0x1078ad930]
+                                                                                1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 2716392) [0x10790b2e8]
+                                                                                  1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 2691900) [0x10790533c]
+                                                                                    1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 2719076) [0x10790bd64]
+                                                                                      1  <User mode>
+      1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 3025520) [0x107956a70]
+        1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 2838968) [0x1079291b8]
+          1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 6409600) [0x107c90d80]
+            1  ??? (libsystem_kernel.dylib + 143076) [0x206d42ee4]
+      1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 224956) [0x1076aaebc]
+        1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 6410252) [0x107c9100c]
+          1  ??? (<AB60633E-8F10-38EF-9557-D21EC6870FC1> + 6409292) [0x107c90c4c]
+            1  ??? (libsystem_kernel.dylib + 143040) [0x206d42ec0]
+
+  Binary Images:
+           0x100728000 -                ???  Messenger               <7EE6898B-9FA9-3E91-B1D9-987B07725C63>  /private/var/containers/Bundle/Application/A6E6A705-6189-48D7-B159-A47CEE0D28B8/Messenger.app/Messenger
+           0x107674000 -                ???  ???                     <AB60633E-8F10-38EF-9557-D21EC6870FC1>
+           0x206367000 -        0x206379fff  libc++abi.dylib         <D4920E50-788D-3BE6-BCCF-8F550BC6D491>  /usr/lib/libc++abi.dylib
+           0x206d20000 -        0x206d4afff  libsystem_kernel.dylib  <45194737-4FC4-37AF-A258-BE0E4593163A>  /usr/lib/system/libsystem_kernel.dylib
+           0x206d79000 -        0x206d9bfff  libsystem_malloc.dylib  <8A218797-621A-36C6-843D-D862510C1D5C>  /usr/lib/system/libsystem_malloc.dylib
+           0x206dba000 -        0x206dcafff  libsystem_pthread.dylib <7DC80761-00AB-3C07-BA48-7F82AAE5DBE4>  /usr/lib/system/libsystem_pthread.dylib
+           0x20b006000 -        0x20b5a4fff  AudioToolbox            <DE9300E2-A283-3438-B1EE-B0D1084D3F28>  /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
